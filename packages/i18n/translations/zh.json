@@ -1,0 +1,636 @@
+{
+	"admin": {
+		"menu": {
+			"general": "通用",
+			"users": "用户"
+		},
+		"users": {
+			"adminRole": "管理员",
+			"delete": "删除",
+			"deleteUser": {
+				"deleted": "用户已成功删除！",
+				"deleting": "正在删除用户...",
+				"notDeleted": "无法删除用户。请重试。"
+			},
+			"emailVerified": {
+				"verified": "邮箱已验证",
+				"waiting": "邮箱等待验证"
+			},
+			"impersonate": "模拟用户",
+			"impersonation": {
+				"impersonating": "正在模拟 {name}...",
+				"unimpersonating": "正在取消模拟..."
+			},
+			"loading": "正在加载用户...",
+			"resendVerificationMail": {
+				"error": "无法重新发送验证邮件。请重试。",
+				"submitting": "正在重新发送验证邮件...",
+				"success": "验证邮件已发送。",
+				"title": "重新发送验证邮件"
+			},
+			"search": "搜索姓名或邮箱...",
+			"title": "管理用户"
+		}
+	},
+	"auth": {
+		"confirmation": {
+			"close": "关闭此窗口",
+			"message": "您可以关闭此窗口并继续在原窗口操作。",
+			"title": "您已登录！"
+		},
+		"continueWithProvider": "使用 {provider} 继续",
+		"forgotPassword": {
+			"backToSignin": "返回登录",
+			"email": "邮箱",
+			"hints": {
+				"linkNotSent": {
+					"message": "很抱歉，我们无法向您发送重置密码的链接。请稍后重试。",
+					"title": "链接未发送"
+				},
+				"linkSent": {
+					"message": "我们已向您发送了一个链接以继续。请检查您的收件箱。",
+					"title": "链接已发送"
+				}
+			},
+			"message": "请输入您的邮箱地址，我们将向您发送一个重置密码的链接。",
+			"submit": "发送链接",
+			"title": "忘记密码？"
+		},
+		"invalidToken": {
+			"message": "链接无效或已过期。请尝试重新登录。",
+			"title": "无效令牌"
+		},
+		"login": {
+			"createAnAccount": "创建账户",
+			"dontHaveAnAccount": "还没有账户？",
+			"email": "邮箱",
+			"forgotPassword": "忘记密码？",
+			"hints": {
+				"invalidCredentials": "您输入的邮箱或密码无效。请重试。",
+				"linkNotSent": {
+					"message": "很抱歉，我们无法向您发送魔法链接。请稍后重试。",
+					"title": "链接未发送"
+				},
+				"linkSent": {
+					"message": "我们已向您发送了一个链接以继续。请检查您的收件箱。",
+					"title": "链接已发送"
+				}
+			},
+			"modes": {
+				"magicLink": "魔法链接",
+				"password": "密码"
+			},
+			"password": "密码",
+			"sendMagicLink": "发送魔法链接",
+			"submit": "登录",
+			"subtitle": "请输入您的凭据以登录。",
+			"title": "欢迎回来"
+		},
+		"setup": {},
+		"signup": {
+			"alreadyHaveAccount": "已有账户？",
+			"email": "邮箱",
+			"hints": {
+				"signupFailed": "很抱歉，我们无法创建您的账户。请稍后重试。",
+				"verifyEmail": "我们已向您发送了一个验证邮箱的链接。请检查您的收件箱。"
+			},
+			"message": "我们很高兴您想加入我们。请填写下面的表单以创建您的账户。",
+			"name": "姓名",
+			"password": "密码",
+			"passwordHint": "请使用至少8个字符，包含大小写字母、数字和特殊字符。",
+			"signIn": "登录",
+			"submit": "创建账户",
+			"title": "创建账户"
+		},
+		"teamInvitation": {
+			"description": "您已被邀请加入一个团队。通过登录或注册，您将自动接受邀请并加入团队。",
+			"title": "接受团队邀请"
+		},
+		"verifyOtp": {
+			"errors": {
+				"otpTooShort": "一次性密码太短。"
+			},
+			"hints": {
+				"verificationFailed": "很抱歉，您输入的密码无效。请重试。"
+			},
+			"message": "您有新邮件！请检查您的收件箱以获取我们发送给您的一次性密码。您也可以点击邮件中的链接，此页面将自动重定向。",
+			"otp": "一次性密码",
+			"submit": "继续",
+			"title": "验证您的邮箱"
+		}
+	},
+	"blog": {
+		"description": "阅读我们公司的最新新闻",
+		"title": "我的精彩博客"
+	},
+	"changelog": {
+		"description": "了解我们产品的最新变更。",
+		"title": "更新日志"
+	},
+	"common": {
+		"confirmation": {
+			"cancel": "取消",
+			"confirm": "确认"
+		},
+		"locales": {},
+		"menu": {
+			"blog": "博客",
+			"changelog": "更新日志",
+			"dashboard": "仪表板",
+			"docs": "文档",
+			"faq": "常见问题",
+			"login": "登录",
+			"pricing": "定价"
+		},
+		"tableOfContents": {
+			"title": "本页内容"
+		}
+	},
+	"createTeam": {
+		"name": "团队名称",
+		"notifications": {
+			"error": "很抱歉，我们无法创建您的团队。请稍后重试。",
+			"success": "您的团队已创建。您现在可以邀请成员了。"
+		},
+		"submit": "创建团队",
+		"title": "创建团队"
+	},
+	"dashboard": {
+		"menu": {
+			"admin": "管理",
+			"promptManager": "提示管理器",
+			"aiDemo": "AI 演示",
+			"dashboard": "仪表盘",
+			"settings": "设置",
+			"accountPlanning": "账号规划",
+			"ipLocationAnalysis": "IP定位分析",
+			"contentDirectionPlanning": "内容方向规划",
+			"operationalStrategy": "运营策略",
+			"operatorNotes": "操盘手笔记",
+			"contentSelection": "内容选题",
+			"hotspotTracking": "热点追踪",
+			"explosiveAnalysis": "爆款分析",
+			"industryTopics": "行业选题",
+			"contentCreation": "内容创作",
+			"textEditor": "图文编辑器",
+			"videoProduction": "视频制作",
+			"aiWritingAssistant": "AI写作助手",
+			"contentTemplates": "内容模板",
+			"publishManagement": "发布管理",
+			"publishQueue": "发布队列",
+			"accountAuthorizationManagement": "账号授权管理",
+			"matrixPublishing": "矩阵发布",
+			"publishAnalysis": "发布分析",
+			"dataInsights": "数据洞察",
+			"contentEffectAnalysis": "内容效果分析",
+			"accountGrowthAnalysis": "账号增长分析",
+			"clueManagement": "线索管理",
+			"commentManagement": "评论管理",
+			"privateMessageManagement": "私信管理",
+			"userPortrait": "用户画像",
+			"materialCenter": "素材中心",
+			"personalInformation": "个人信息",
+			"accountSettings": "账户设置",
+			"systemSettings": "系统设置"
+		},
+		"sidebar": {
+			"createTeam": "创建新团队"
+		},
+		"subtitle": "查看您出色业务的最新统计数据。",
+		"userMenu": {
+			"accountSettings": "账户设置",
+			"colorMode": "颜色模式",
+			"documentation": "文档",
+			"language": "语言",
+			"logout": "退出登录",
+			"unimpersonate": "取消模拟"
+		},
+		"welcome": "欢迎，{name}！"
+	},
+	"faq": {
+		"description": "您有任何问题吗？我们已为您准备好答案。",
+		"title": "常见问题"
+	},
+	"mail": {
+		"common": {
+			"openLinkInBrowser": "如果您想在默认浏览器以外的浏览器中打开链接，请复制并粘贴此链接：",
+			"otp": "一次性密码",
+			"useLink": "或使用以下链接："
+		},
+		"emailChange": {
+			"body": "你好 {name}，\n您更改了邮箱。请点击下面的链接确认您的新邮箱地址。",
+			"confirmEmail": "确认邮箱",
+			"subject": "确认您的邮箱变更"
+		},
+		"forgotPassword": {
+			"body": "你好 {name}，\n您请求了密码重置。\n\n您可以在应用程序中手动输入下面的一次性密码",
+			"resetPassword": "重置密码",
+			"subject": "重置您的密码"
+		},
+		"magicLink": {
+			"body": "你好 {name}，\n您从 supastarter 请求了登录邮件。\n\n您可以在应用程序中手动输入下面的一次性密码",
+			"login": "登录",
+			"subject": "登录 supastarter"
+		},
+		"newUser": {
+			"body": "你好 {name}，\n感谢您注册 supastarter。\n\n要开始使用我们的应用，请点击下面的链接确认您的邮箱地址。",
+			"confirmEmail": "确认邮箱",
+			"subject": "欢迎使用 supastarter"
+		},
+		"newsletterSignup": {
+			"body": "感谢您订阅 supastarter 新闻通讯。我们将为您提供最新的新闻和更新。",
+			"subject": "欢迎订阅我们的新闻通讯"
+		},
+		"teamInvitation": {
+			"body": "您已被邀请加入团队 {teamName}。点击下面的按钮或将链接复制并粘贴到您选择的浏览器中，以接受邀请并加入团队。",
+			"headline": "加入团队 {teamName}",
+			"join": "加入团队",
+			"subject": "您已被邀请加入一个团队"
+		}
+	},
+	"newsletter": {
+		"email": "邮箱",
+		"hints": {
+			"success": {
+				"message": "感谢您订阅我们的新闻通讯。我们会及时为您提供最新信息。",
+				"title": "已订阅"
+			}
+		},
+		"submit": "订阅",
+		"subtitle": "成为最早获得 supastarter.nextjs 访问权限的人之一。",
+		"title": "获得早期访问权限"
+	},
+	"onboarding": {
+		"account": {
+			"avatar": "头像",
+			"avatarDescription": "点击圆圈或将图片拖放到圆圈上以上传您的头像。",
+			"name": "姓名",
+			"title": "完善您的账户"
+		},
+		"back": "返回",
+		"complete": "完成",
+		"continue": "继续",
+		"message": "只需几个快速步骤即可开始使用。",
+		"notifications": {
+			"accountSetupFailed": "很抱歉，我们无法设置您的账户。请稍后重试。"
+		},
+		"step": "步骤 {step} / {total}",
+		"team": {
+			"joinTeam": "加入团队",
+			"name": "团队名称",
+			"title": "创建团队",
+			"joinTeamDescription": "您正在加入团队 <strong>{teamName}</strong>。"
+		},
+		"title": "设置您的账户"
+	},
+	"pricing": {
+		"description": "选择最适合您的计划。",
+		"month": "月",
+		"monthly": "每月",
+		"subscribe": "订阅",
+		"title": "定价",
+		"year": "年",
+		"yearly": "每年"
+	},
+	"settings": {
+		"account": {
+			"avatar": {
+				"description": "要更改您的头像，请点击此块右侧的图片，并从您的计算机中选择一个文件上传。",
+				"title": "您的头像"
+			},
+			"changeEmail": {
+				"description": "输入新的邮箱并点击保存以更新。",
+				"note": "您需要验证新的邮箱地址才能再次登录。",
+				"title": "您的邮箱"
+			},
+			"changeName": {
+				"title": "您的姓名"
+			},
+			"changePassword": {
+				"description": "要更改密码，请在下面输入新密码并点击保存。",
+				"note": "请输入至少8个字符。",
+				"title": "您的密码"
+			},
+			"deleteAccount": {
+				"confirmation": "您确定要删除您的账户吗？",
+				"description": "永久删除您的账户。一旦删除您的账户，将无法恢复。请确保您真的要这么做。",
+				"submit": "删除账户",
+				"title": "删除账户"
+			},
+			"title": "账户"
+		},
+		"billing": {
+			"cancelSubscription": {
+				"notifications": {
+					"error": {
+						"title": "无法取消订阅"
+					},
+					"success": {
+						"title": "订阅已取消"
+					}
+				}
+			},
+			"createCustomerPortal": {
+				"label": "管理账单详情",
+				"notifications": {
+					"error": {
+						"title": "无法创建客户门户会话。请重试。"
+					}
+				}
+			},
+			"pauseSubscription": {
+				"label": "暂停订阅",
+				"notifications": {
+					"error": {
+						"title": "无法暂停订阅。请重试。"
+					},
+					"success": {
+						"title": "订阅已暂停。"
+					}
+				}
+			},
+			"resumeSubscription": {
+				"notifications": {
+					"error": {
+						"title": "无法恢复订阅"
+					},
+					"success": {
+						"title": "订阅已恢复"
+					}
+				}
+			},
+			"subscription": {
+				"cancel": "取消您的订阅",
+				"currentPlan": "您当前的计划",
+				"currentSubscription": "您当前的订阅",
+				"endsOn": "您的订阅将于 <strong>{nextPaymentDate, date, medium}</strong> 结束",
+				"freePlan": {
+					"title": "免费"
+				},
+				"month": "月",
+				"monthly": "每月",
+				"nextPayment": "下一次付款将于 <strong>{nextPaymentDate, date, medium}</strong> 进行",
+				"pauseSubscription": "暂停您的订阅",
+				"resume": "恢复订阅",
+				"resumeSubscription": "恢复您的订阅",
+				"status": {
+					"active": "活跃",
+					"canceled": "已取消",
+					"expired": "已过期",
+					"incomplete": "不完整",
+					"past_due": "逾期",
+					"paused": "已暂停",
+					"trialing": "试用中",
+					"unpaid": "未付款"
+				},
+				"subscribe": "订阅",
+				"switchToPlan": "切换到此计划",
+				"updateBillingDetails": "更新账单详情",
+				"upgradePlan": "升级您的计划",
+				"year": "年",
+				"yearly": "每年",
+				"yourSubscription": "您已订阅 <strong>{plan}</strong> ({price}/{interval})"
+			},
+			"title": "账单"
+		},
+		"menu": {
+			"account": {
+				"general": "通用",
+				"title": "账户"
+			},
+			"team": {
+				"billing": "账单",
+				"general": "通用",
+				"members": "成员",
+				"title": "团队"
+			}
+		},
+		"notifications": {
+			"accountDeleted": "您的账户已被删除。",
+			"accountNotDeleted": "我们无法删除您的账户。请稍后重试。",
+			"avatarNotUpdated": "我们无法更新您的头像。请重试。",
+			"avatarUpdated": "您的头像已更新。",
+			"emailUpdated": "您的邮箱已更新。",
+			"nameUpdateFailed": "无法更新您的姓名。请稍后重试。",
+			"nameUpdated": "您的姓名已更新。",
+			"passwordNotUpdated": "我们无法更新您的密码。请重试。",
+			"passwordUpdated": "您的密码已更新。",
+			"teamDeleted": "您的团队已被删除。",
+			"teamNameNotUpdated": "我们无法更新您的团队名称。请稍后重试。",
+			"teamNameUpdated": "您的团队名称已更新。",
+			"teamNotDeleted": "我们无法删除您的团队。请稍后重试。"
+		},
+		"save": "保存",
+		"sections": {
+			"team": "团队"
+		},
+		"subtitle": "管理您的设置",
+		"team": {
+			"changeName": {
+				"description": "输入新名称并点击保存以更新。",
+				"teamUrl": "您的团队 URL 将是 <strong>{url}</strong>。",
+				"title": "团队名称"
+			},
+			"deleteTeam": {
+				"confirmation": "您确定要删除您的团队吗？",
+				"description": "永久删除您的团队。一旦删除您的团队，将无法恢复。请确保您真的要这么做。",
+				"submit": "删除团队",
+				"title": "删除团队"
+			},
+			"members": {
+				"activeMembers": "活跃成员",
+				"invitations": {
+					"email": "邮箱",
+					"empty": "您还没有邀请任何成员。",
+					"revoke": "撤销邀请"
+				},
+				"invite": "邀请新成员",
+				"inviteMember": {
+					"email": "邮箱",
+					"notifications": {
+						"error": {
+							"description": "我们无法邀请该成员。请稍后重试。",
+							"title": "无法邀请成员"
+						},
+						"success": {
+							"description": "该成员已被邀请。",
+							"title": "成员已邀请"
+						}
+					},
+					"role": "角色",
+					"submit": "邀请",
+					"title": "邀请新成员"
+				},
+				"notifications": {
+					"removeMember": {
+						"error": {
+							"description": "无法从您的团队中移除该成员。请重试。"
+						},
+						"loading": {
+							"description": "正在从团队中移除成员..."
+						},
+						"success": {
+							"description": "该成员已成功从您的团队中移除。"
+						}
+					},
+					"revokeInvitation": {
+						"error": {
+							"description": "无法撤销邀请。请稍后重试。"
+						},
+						"loading": {
+							"description": "正在撤销邀请..."
+						},
+						"success": {
+							"description": "邀请已被撤销。"
+						}
+					},
+					"updateMembership": {
+						"error": {
+							"description": "无法更新团队成员资格。请重试。"
+						},
+						"loading": {
+							"description": "正在更新成员资格..."
+						},
+						"success": {
+							"description": "成员资格已成功更新"
+						}
+					}
+				},
+				"pendingInvitations": "待处理的邀请",
+				"removeMember": "移除成员",
+				"roles": {
+					"member": "成员",
+					"owner": "所有者"
+				},
+				"title": "成员"
+			},
+			"subtitle": "管理您的团队设置和成员",
+			"title": "团队"
+		},
+		"title": "设置"
+	},
+	"zod": {
+		"errors": {
+			"custom": {
+				"email_already_exists": "此邮箱已被使用。",
+				"email_not_verified": "请先验证您的邮箱地址。",
+				"lowercase_character_required": "请至少使用一个小写字符。",
+				"number_required": "请至少使用一个数字。",
+				"special_character_required": "请至少使用一个特殊字符 ({character})。",
+				"uppercase_character_required": "请至少使用一个大写字符。"
+			},
+			"invalid_arguments": "无效的函数参数",
+			"invalid_date": "无效的日期",
+			"invalid_enum_value": "无效的枚举值。预期 {- options}，收到 '{received}'",
+			"invalid_intersection_types": "交集结果无法合并",
+			"invalid_literal": "无效的字面值，预期 {expected}",
+			"invalid_return_type": "无效的函数返回类型",
+			"invalid_string": {
+				"cuid": "无效的 {validation}",
+				"datetime": "无效的 {validation}",
+				"email": "无效的 {validation}",
+				"endsWith": "无效输入：必须以 \"{endsWith}\" 结尾",
+				"regex": "无效",
+				"startsWith": "无效输入：必须以 \"{startsWith}\" 开头",
+				"url": "无效的 {validation}",
+				"uuid": "无效的 {validation}"
+			},
+			"invalid_type": "预期 {expected}，收到 {received}",
+			"invalid_type_received_null": "必填",
+			"invalid_type_received_undefined": "必填",
+			"invalid_union": "无效输入",
+			"invalid_union_discriminator": "无效的判别值。预期 {- options}",
+			"not_finite": "数字必须是有限的",
+			"not_multiple_of": "数字必须是 {multipleOf} 的倍数",
+			"too_big": {
+				"array": {
+					"exact": "数组必须恰好包含 {maximum} 个元素",
+					"inclusive": "数组最多包含 {maximum} 个元素",
+					"not_inclusive": "数组必须包含少于 {maximum} 个元素"
+				},
+				"date": {
+					"exact": "日期必须恰好是 {- maximum, datetime}",
+					"inclusive": "日期必须小于或等于 {- maximum, datetime}",
+					"not_inclusive": "日期必须小于 {- maximum, datetime}"
+				},
+				"number": {
+					"exact": "数字必须恰好是 {maximum}",
+					"inclusive": "数字必须小于或等于 {maximum}",
+					"not_inclusive": "数字必须小于 {maximum}"
+				},
+				"set": {
+					"exact": "无效输入",
+					"inclusive": "无效输入",
+					"not_inclusive": "无效输入"
+				},
+				"string": {
+					"exact": "字符串必须恰好包含 {maximum} 个字符",
+					"inclusive": "字符串最多包含 {maximum} 个字符",
+					"not_inclusive": "字符串必须包含少于 {maximum} 个字符"
+				}
+			},
+			"too_small": {
+				"array": {
+					"exact": "数组必须恰好包含 {minimum} 个元素",
+					"inclusive": "数组至少包含 {minimum} 个元素",
+					"not_inclusive": "数组必须包含多于 {minimum} 个元素"
+				},
+				"date": {
+					"exact": "日期必须恰好是 {- minimum, datetime}",
+					"inclusive": "日期必须大于或等于 {- minimum, datetime}",
+					"not_inclusive": "日期必须大于 {- minimum, datetime}"
+				},
+				"number": {
+					"exact": "数字必须恰好是 {minimum}",
+					"inclusive": "数字必须大于或等于 {minimum}",
+					"not_inclusive": "数字必须大于 {minimum}"
+				},
+				"set": {
+					"exact": "无效输入",
+					"inclusive": "无效输入",
+					"not_inclusive": "无效输入"
+				},
+				"string": {
+					"exact": "字符串必须恰好包含 {minimum} 个字符",
+					"inclusive": "字符串至少包含 {minimum} 个字符",
+					"not_inclusive": "字符串必须包含多于 {minimum} 个字符"
+				}
+			},
+			"unrecognized_keys": "对象中存在无法识别的键：{- keys}"
+		},
+		"types": {
+			"array": "数组",
+			"bigint": "大整数",
+			"boolean": "布尔值",
+			"date": "日期",
+			"float": "浮点数",
+			"function": "函数",
+			"integer": "整数",
+			"map": "映射",
+			"nan": "非数字",
+			"never": "永不",
+			"null": "空值",
+			"number": "数字",
+			"object": "对象",
+			"promise": "承诺",
+			"set": "集合",
+			"string": "字符串",
+			"symbol": "符号",
+			"undefined": "未定义",
+			"unknown": "未知",
+			"void": "无返回值"
+		},
+		"validations": {
+			"cuid": "CUID",
+			"cuid2": "CUID2",
+			"datetime": "日期时间",
+			"email": "电子邮箱",
+			"emoji": "表情符号",
+			"ip": "IP地址",
+			"regex": "正则表达式",
+			"ulid": "ULID",
+			"url": "URL",
+			"uuid": "UUID"
+		}
+	}
+}

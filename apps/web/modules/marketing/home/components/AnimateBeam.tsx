@@ -1,0 +1,1 @@
+https://magicui.design/r/animated-beam
